@@ -1,0 +1,245 @@
+[33mcommit 26b45fa018986658e054c94bc2acf498869fe512[m[33m ([m[1;36mHEAD -> [m[1;32mdevelop[m[33m)[m
+Merge: e18e37f b6107a3
+Author: Gonzalo Morresi <gonzalomorresi@gmail.com>
+Date:   Wed Oct 26 11:30:54 2022 -0300
+
+    Merge branch 'develop' of https://github.com/sankadell/Monoruedas2 into develop
+
+[33mcommit b6107a325c032c94ce77c2a7932a1152c1dd7b2e[m[33m ([m[1;31morigin/develop[m[33m)[m
+Merge: 581d318 bb45d4e
+Author: sankadell <94577781+sankadell@users.noreply.github.com>
+Date:   Wed Oct 26 10:30:21 2022 -0400
+
+    Merge pull request #12 from sankadell/feature_div1
+    
+    ooootra vez
+
+[33mcommit bb45d4eadf8db790b3430c5340345bba99015780[m[33m ([m[1;31morigin/feature_div1[m[33m, [m[1;32mfeature_div1[m[33m)[m
+Author: Santiago Dell Agnola <s.dellagnola@gmail.com>
+Date:   Wed Oct 26 10:26:40 2022 -0400
+
+    ooootra vez
+
+[33mcommit 581d318b18b8861ab13fea69a321701f5970e310[m
+Merge: 6c0187c a4a86b5
+Author: sankadell <94577781+sankadell@users.noreply.github.com>
+Date:   Wed Oct 26 10:23:26 2022 -0400
+
+    Merge pull request #11 from sankadell/feature_div1
+    
+    cambie titulo de monoceros
+
+[33mcommit e18e37fb93d462908cc147f40021d4c401966969[m
+Merge: 04ec1db 6c0187c
+Author: Gonzalo Morresi <gonzalomorresi@gmail.com>
+Date:   Wed Oct 26 11:22:02 2022 -0300
+
+    acepto cambios entrantes del pull
+
+[33mcommit a4a86b555f02f63b5e3a76eb56b25def51958528[m
+Author: Santiago Dell Agnola <s.dellagnola@gmail.com>
+Date:   Wed Oct 26 10:16:31 2022 -0400
+
+    cambie titulo de monoceros
+
+[33mcommit 04ec1db99b51eecd3539827cfe86e75c9847d1a5[m
+Author: Gonzalo Morresi <gonzalomorresi@gmail.com>
+Date:   Wed Oct 26 11:13:35 2022 -0300
+
+    acepto cambios
+
+[33mcommit 6c0187c9dbed09dd5993cc2441b9be4dbcf1c51d[m
+Merge: ad1a490 c319bdf
+Author: sankadell <94577781+sankadell@users.noreply.github.com>
+Date:   Wed Oct 26 10:10:43 2022 -0400
+
+    Merge pull request #7 from sankadell/rama_galeria
+    
+    cambio titulo de nuevo
+
+[33mcommit c319bdf8153c319f6736c94d1f16f8de8c435563[m[33m ([m[1;31morigin/rama_galeria[m[33m)[m
+Merge: f8113ee ad1a490
+Author: sankadell <94577781+sankadell@users.noreply.github.com>
+Date:   Wed Oct 26 10:10:32 2022 -0400
+
+    Merge branch 'develop' into rama_galeria
+
+[33mcommit ad1a490c8c9ccecfb7f950a68d2869537d2a0bea[m
+Merge: 4b60da6 c71276c
+Author: sankadell <94577781+sankadell@users.noreply.github.com>
+Date:   Wed Oct 26 10:09:25 2022 -0400
+
+    Merge pull request #9 from sankadell/main
+    
+    sasa
+
+[33mcommit c71276cc826449fee6b0e42a08f31552042bbd28[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Merge: 6974cbc 4b60da6
+Author: sankadell <94577781+sankadell@users.noreply.github.com>
+Date:   Wed Oct 26 10:06:04 2022 -0400
+
+    Merge pull request #8 from sankadell/develop
+    
+    Develop
+
+[33mcommit f8113ee9f982777e7f8cd5cba99cd2d071a01edf[m
+Merge: 4a4cb77 3aaa8a8
+Author: sankadell <94577781+sankadell@users.noreply.github.com>
+Date:   Wed Oct 26 10:02:48 2022 -0400
+
+    Merge branch 'develop' into rama_galeria
+
+[33mcommit 4a4cb77c07877c875c4de519ec607586357e20b2[m[33m ([m[1;32mrama_galeria[m[33m)[m
+Author: Gonzalo Morresi <gonzalomorresi@gmail.com>
+Date:   Wed Oct 26 10:59:50 2022 -0300
+
+    cambio titulo de nuevo
+
+[33mcommit 4b60da6697c80cc78de5b0b444b402d09c23e09b[m
+Merge: c6dfe3c 3aaa8a8
+Author: Santiago Dell Agnola <s.dellagnola@gmail.com>
+Date:   Wed Oct 26 09:50:40 2022 -0400
+
+    Merge branch 'develop' into feature_div1
+
+[33mcommit c6dfe3c0370a0e89440fd454da95669e900c9c93[m
+Author: Gonzalo Morresi <gonzalomorresi@gmail.com>
+Date:   Wed Oct 26 10:17:52 2022 -0300
+
+    cambio titulo para ver si es necesario configurar upstream
+
+[33mcommit 6974cbc2e5599a1a391ffbb031da4074d9675b1e[m
+Merge: 96cd3ed 3aaa8a8
+Author: sankadell <94577781+sankadell@users.noreply.github.com>
+Date:   Wed Oct 26 08:57:38 2022 -0400
+
+    Merge pull request #6 from sankadell/develop
+    
+    HTML completo
+
+[33mcommit 3aaa8a837754e41d35e837295fc268f2d565b32a[m
+Merge: 7b86c5a 5fe7e40
+Author: sankadell <94577781+sankadell@users.noreply.github.com>
+Date:   Wed Oct 26 08:56:20 2022 -0400
+
+    Merge pull request #5 from sankadell/feature_header
+    
+    Feature header
+
+[33mcommit 5fe7e40ca3e3a82da743cd5bd05a6bbd5129cecc[m[33m ([m[1;31morigin/feature_header[m[33m)[m
+Merge: 621e2b4 7b86c5a
+Author: Gonzalo <88410023+faucesmou@users.noreply.github.com>
+Date:   Wed Oct 26 09:54:42 2022 -0300
+
+    Merge branch 'develop' into feature_header
+
+[33mcommit 621e2b439ced5b9eb47d11dd261a199badeafa8c[m[33m ([m[1;32mfeature_header[m[33m)[m
+Author: Gonzalo Morresi <gonzalomorresi@gmail.com>
+Date:   Wed Oct 26 09:43:59 2022 -0300
+
+    cambio título a modo de prueba
+
+[33mcommit 829fc3c3bb80faa9a09a3c6c9a662f98d7982db5[m
+Author: Gonzalo Morresi <gonzalomorresi@gmail.com>
+Date:   Wed Oct 26 09:39:43 2022 -0300
+
+    cambio extra
+
+[33mcommit 7b86c5a2abc12f2276faea507396a1317c195253[m
+Merge: bec0fcd 5826988
+Author: Santiago Dell Agnola <s.dellagnola@gmail.com>
+Date:   Wed Oct 26 08:23:32 2022 -0400
+
+    Merge branch 'develop' of https://github.com/sankadell/Monoruedas2 into develop
+
+[33mcommit bec0fcd338f6ed9ef7f74e1e6974724588f6c1bf[m
+Author: Santiago Dell Agnola <s.dellagnola@gmail.com>
+Date:   Wed Oct 26 08:14:55 2022 -0400
+
+    aprueba cambios
+
+[33mcommit 58269881bcaa3de45ccadf8c33f27ce85d90f7b4[m
+Merge: dd31b84 c3f1d4b
+Author: Gonzalo Morresi <gonzalomorresi@gmail.com>
+Date:   Wed Oct 26 09:01:40 2022 -0300
+
+     prueba
+
+[33mcommit dd31b84e6c9c45fd7b142297c8e16cc790a1443b[m
+Author: Gonzalo Morresi <gonzalomorresi@gmail.com>
+Date:   Tue Oct 25 12:59:20 2022 -0300
+
+    agrego todo el template
+
+[33mcommit c3f1d4b4ae72fc97d92ac30aa06a08cdbe2a9efc[m
+Merge: 0d57162 eef2987
+Author: Gonzalo <88410023+faucesmou@users.noreply.github.com>
+Date:   Tue Oct 25 12:57:00 2022 -0300
+
+    Merge pull request #4 from sankadell/galeria2
+    
+    Galeria2
+
+[33mcommit 96cd3ed1495d49e304ac2dac2c1968db6b1e3e3f[m
+Merge: 68537b7 eef2987
+Author: sankadell <94577781+sankadell@users.noreply.github.com>
+Date:   Tue Oct 25 11:55:26 2022 -0400
+
+    Merge pull request #3 from sankadell/galeria2
+    
+    Galeria2
+
+[33mcommit eef2987fd87abb6db10b19cb929ee8cf679efdcc[m[33m ([m[1;31morigin/galeria2[m[33m)[m
+Merge: ac32c7f 68537b7
+Author: sankadell <94577781+sankadell@users.noreply.github.com>
+Date:   Tue Oct 25 11:55:17 2022 -0400
+
+    Merge branch 'main' into galeria2
+
+[33mcommit ac32c7f5837c759a104ca40afa683bfe28967d2c[m
+Merge: cd83ea3 0d57162
+Author: Gonzalo <88410023+faucesmou@users.noreply.github.com>
+Date:   Tue Oct 25 12:49:36 2022 -0300
+
+    Merge pull request #2 from sankadell/develop
+    
+    Merge pull request #1 from sankadell/galeria2
+
+[33mcommit 0d57162e2152d1f7ae8c6b3a407e8116e80c9414[m
+Merge: b80a6b9 cd83ea3
+Author: Gonzalo <88410023+faucesmou@users.noreply.github.com>
+Date:   Tue Oct 25 12:15:54 2022 -0300
+
+    Merge pull request #1 from sankadell/galeria2
+    
+    cambio aside
+
+[33mcommit cd83ea3d6e57913732c9e8ff89f2254e42b464bf[m
+Author: Gonzalo Morresi <gonzalomorresi@gmail.com>
+Date:   Tue Oct 25 12:14:12 2022 -0300
+
+    cambio aside
+
+[33mcommit b80a6b92c9b6785f0120d0d639d276a10f96dfaf[m
+Author: Gonzalo Morresi <gonzalomorresi@gmail.com>
+Date:   Tue Oct 25 12:08:50 2022 -0300
+
+    pepe
+
+[33mcommit 68537b7c0a42eab94f2f31a057a271818f77f705[m[33m ([m[1;32mmain[m[33m)[m
+Author: Gonzalo Morresi <gonzalomorresi@gmail.com>
+Date:   Tue Oct 25 11:59:59 2022 -0300
+
+    otra vez agrego cambio
+
+[33mcommit 3ec6b57bca29510627343a9446ba14d63634d6ce[m
+Author: Santiago Dell Agnola <s.dellagnola@gmail.com>
+Date:   Tue Oct 25 09:26:39 2022 -0400
+
+    primer HTML
+
+[33mcommit e7dac6129cf63deee4490a6843ec69d86e88b517[m
+Author: Santiago Dell Agnola <s.dellagnola@gmail.com>
+Date:   Tue Oct 25 09:17:24 2022 -0400
+
+    first commit
