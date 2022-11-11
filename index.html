@@ -5,13 +5,12 @@
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="somos >
-    <meta
-      name=" description" content="En Monoceros nos encargamos del proceso de venta de vehículos entre particulares.
-    Estás a un click de comprar o vender al mejor valor de mercado." />
+  <meta name="description" content="En Monoceros nos encargamos del proceso de venta de vehículos entre particulares.
+  Estás a un click de comprar o vender al mejor valor de mercado.">
   <link rel="shortcut icon" href="images/Monoceros2.jpg" type="image/x-icon" />
+
   <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-  <title>FEATURE HEADER</title>
+  <title>MONOCEROS</title>
 
   <!-- Bootstrap -->
   <link href="css/bootstrap.min.css" rel="stylesheet" />
@@ -24,9 +23,14 @@
   <!-- Magnific popup style sheet -->
   <link rel="stylesheet" href="css/magnific-popup.css" />
 
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
   <!-- Dolphin style sheet -->
   <link rel="stylesheet" href="css/weblysleek-ui-fonts.css" />
   <link rel="stylesheet" href="css/main.css" />
+
+
 
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" />
   <link href="https://fonts.googleapis.com/css?family=Rubik:400,700,900" rel="stylesheet" />
@@ -35,12 +39,13 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,300;0,400;0,500;0,700;0,800;1,200;1,400;1,500;1,600;1,700;1,800&family=Lobster&family=Manrope:wght@200;300;400&family=Noto+Sans:ital,wght@0,200;0,300;0,500;1,100&display=swap"
     rel="stylesheet" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- INTENTO GALERÍA COMO WEFIND (PROBLEMA: SI INGRESO LINK CDN DE BOOSTRAP SE ROMPE EN NAV)-->
+
 </head>
 
 <body>
   <nav class="navbar navbar-default navbar-fixed-top">
-    <div class="container">
+    <div class="container1">
       <!-- Brand and toggle get grouped for better mobile display -->
       <div class="navbar-header">
         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
@@ -216,7 +221,7 @@
   <!-- FEATURE END-->
 
   <!-- TESTIMONIAL -->
-  <section id="testimonials" class="section testimonial-bg" style="background-image: url(images/testimonials.jpg)">
+  <section id="testimonials" class="section testimonial-bg" style="background-image: url(images/testimonials5.jpg)">
     <div class="container">
       <div class="row">
         <div class="col-md-12 text-center">
@@ -226,7 +231,7 @@
                 <div class="col-md-8 col-md-offset-2">
                   <div class="testimonial-container">
                     <div class="client-details text-center">
-                      <img src="images/testimonial-1.png" alt="" />
+                      <img src="images/quate.png" alt="" />
                       <h5 class="client-name">satisfied customer</h5>
                       <hr class="section-devider" />
                     </div>
@@ -249,7 +254,7 @@
                 <div class="col-md-8 col-md-offset-2">
                   <div class="testimonial-container">
                     <div class="client-details text-center">
-                      <img src="images/testimonial-1.png" alt="" />
+                      <img src="images/Monoceros4.jpg" alt="" />
                       <h5 class="client-name">satisfied customer</h5>
                       <hr class="section-devider" />
                     </div>
@@ -323,13 +328,31 @@
       </div>
     </div>
   </section>
-  <!-- WORKFLOW END ________________________Latest Cars Image Thumbnail________________-->
+
+  <!-- _____________-------------------------___________ÚLTIMOS AUTOS SECTION _____________----------------------------__________-->
+  <div class="latestcars">
+    <h1 class="text-center">&bullet; ÚLTIMOS AUTOS &bullet;</h1>
+    <ul class="nav nav-tabs navbar-left latest-navleft">
+      <li role="presentation" class="li-sortby"><span class="sortby">Buscar por: </span></li>
+      <li data-filter=".RECENT" role="presentation"><a href="#mostrecent" class="prcBtnR">Más recientes </a></li>
+      <li data-filter=".POPULAR" role="presentation"><a href="#mostpopular" class="prcBtnR">Más populares </a></li>
+      <li role="presentation"><a href="#" class="alphSort">Marca </a></li>
+      <li data-filter=".HPRICE" role="presentation"><a href="#" class="prcBtnH">Mejor precio </a></li>
+      <li data-filter=".LPRICE" role="presentation"><a href="#" class="prcBtnL">Mejor financianción </a></li>
+      <li id="hideonmobile">
+    </ul>
+  </div>
+  <br>
+  <br>
+
+
+  <!------------------------------------------------------------------ TEMPLATE 2 GARAGE GALERÍA------------------------------------>
 
   <div class="grid">
     <div class="row">
-      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3" class="ImagenGarage">
         <div class="txthover">
-          <img src="images/image/car1.jpg" alt="car1" />
+          <img src="images/Mercedes-BenzResized4.jpg" alt="car1" />
           <div class="txtcontent">
             <div class="stars">
               <div class="glyphicon glyphicon-star"></div>
@@ -361,7 +384,7 @@
       </div>
       <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
         <div class="txthover">
-          <img src="images/image/car2.jpg" alt="car2" />
+          <img src="images/VolkswagenAmarok6 .jpg" alt="car2" />
           <div class="txtcontent">
             <div class="stars">
               <div class="glyphicon glyphicon-star"></div>
@@ -393,7 +416,7 @@
       </div>
       <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
         <div class="txthover">
-          <img src="images/image/car3.jpg" alt="car3" />
+          <img src="images/BaicX351Resized4.jpg" alt="car3" />
           <div class="txtcontent">
             <div class="stars">
               <div class="glyphicon glyphicon-star"></div>
@@ -425,7 +448,7 @@
       </div>
       <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
         <div class="txthover">
-          <img src="images/image/car4.jpg" alt="car4" />
+          <img src="images/Mitsubishi L200Resized7.jpg" alt="car4" />
           <div class="txtcontent">
             <div class="stars">
               <div class="glyphicon glyphicon-star"></div>
@@ -457,7 +480,7 @@
       </div>
       <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
         <div class="txthover">
-          <img src="images/image/car5.jpg" alt="car5" />
+          <img src="images/VolkswagenAmarok 2.0Crop5.jpg" alt="car5" />
           <div class="txtcontent">
             <div class="stars">
               <div class="glyphicon glyphicon-star"></div>
@@ -489,7 +512,7 @@
       </div>
       <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
         <div class="txthover">
-          <img src="images/image/car6.jpg" alt="car6" />
+          <img src="images/Mercedes-BenzResized4.jpg" alt="car6" />
           <div class="txtcontent">
             <div class="stars">
               <div class="glyphicon glyphicon-star"></div>
@@ -521,7 +544,7 @@
       </div>
       <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
         <div class="txthover">
-          <img src="images/image/car7.jpg" alt="car7" />
+          <img src="images/Mercedes-BenzResized4.jpg" alt="car7" />
           <div class="txtcontent">
             <div class="stars">
               <div class="glyphicon glyphicon-star"></div>
@@ -553,7 +576,7 @@
       </div>
       <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
         <div class="txthover">
-          <img src="images/image/car8.jpg" alt="car8" />
+          <img src="images/VolkswagenAmarok 2.0Crop5.jpg" alt="car8" />
           <div class="txtcontent">
             <div class="stars">
               <div class="glyphicon glyphicon-star"></div>
@@ -585,212 +608,188 @@
       </div>
     </div>
   </div>
-  <!-- PRICING TABLE 
-    <section id="price" class="section bg-gray">
-      <div class="container pricing-wraper">
-        <header class="section-heading text-center">
-          <h3>
-            <span class="text--semi-bold">Get Pro &amp;</span>
-            <span class="text--light">Discover more</span>
-          </h3>
-        </header>
-        <div class="row pricing-row">
-          <div class="col-md-3 col-sm-6 no--padding">
-            <ul class="pricing-table">
-              <li class="header">Student</li>
-              <li class="price-tag">
-                <span class="price"><sup>$</sup>199</span
-                ><span class="package-duration">monthly</span>
-              </li>
-              <li>10GB Storage</li>
-              <li>10 Emails</li>
-              <li>10 Domains</li>
-              <li>1GB Bandwidth</li>
-              <li class="footer">
-                <a
-                  class="
-                    btn btn-default btn-theme btn-rounded-corner
-                    margin-top-bottom-50
-                    btn-o
-                  "
-                  href="#"
-                  role="button"
-                  >upgrade</a
-                >
-              </li>
-            </ul>
-          </div>
-          <div class="col-md-3 col-sm-6 no--padding">
-            <ul class="pricing-table">
-              <li class="header">Pro</li>
-              <li class="price-tag">
-                <span class="price"><sup>$</sup>199</span
-                ><span class="package-duration">monthly</span>
-              </li>
-              <li>10GB Storage</li>
-              <li>10 Emails</li>
-              <li>10 Domains</li>
-              <li>1GB Bandwidth</li>
-              <li class="footer">
-                <a
-                  class="
-                    btn btn-default btn-theme btn-rounded-corner
-                    margin-top-bottom-50
-                    btn-o
-                  "
-                  href="#"
-                  role="button"
-                  >get started</a
-                >
-              </li>
-            </ul>
-          </div>
-          <div class="col-md-3 col-sm-6 no--padding">
-            <ul class="pricing-table">
-              <li class="header">Business</li>
-              <li class="price-tag">
-                <span class="price"><sup>$</sup>199</span
-                ><span class="package-duration">monthly</span>
-              </li>
-              <li>10GB Storage</li>
-              <li>10 Emails</li>
-              <li>10 Domains</li>
-              <li>1GB Bandwidth</li>
-              <li class="footer">
-                <a
-                  class="
-                    btn btn-default btn-theme btn-rounded-corner
-                    margin-top-bottom-50
-                  "
-                  href="#"
-                  role="button"
-                  >try free for 30 days</a
-                >
-              </li>
-            </ul>
-          </div>
-          <div class="col-md-3 col-sm-6 no--padding">
-            <ul class="pricing-table">
-              <li class="header">Enterprise</li>
-              <li class="price-tag">
-                <span class="price"><sup>$</sup>199</span
-                ><span class="package-duration">monthly</span>
-              </li>
-              <li>10GB Storage</li>
-              <li>10 Emails</li>
-              <li>10 Domains</li>
-              <li>1GB Bandwidth</li>
-              <li class="footer">
-                <a
-                  class="
-                    btn btn-default btn-theme btn-rounded-corner
-                    margin-top-bottom-50
-                    btn-o
-                  "
-                  href="#"
-                  role="button"
-                  >upgrade</a
-                >
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-6 col-sm-12 col-md-offset-3">
-            <div class="section-sebheading text-center pricing-subheading">
-              <h5>Designed to take teamwork to the next level</h5>
-            </div>
-            <div class="row">
-              <div class="col-sm-4 col-xs-12 text-center feature-with-icon">
-                <div class="icon-wraper text-center">
-                  <img src="images/pricing-icon-1.png" alt="" />
-                </div>
-                <div class="pricing-feature">
-                  <p>All the space you need</p>
-                </div>
-              </div>
-              <div class="col-sm-4 col-xs-12 text-center feature-with-icon">
-                <div class="icon-wraper text-center">
-                  <img src="images/pricing-icon-2.png" alt="" />
-                </div>
-                <div class="pricing-feature">
-                  <p>Advanced security</p>
-                </div>
-              </div>
-              <div class="col-sm-4 col-xs-12 text-center feature-with-icon">
-                <div class="icon-wraper text-center">
-                  <img src="images/pricing-icon-3.png" alt="" />
-                </div>
-                <div class="pricing-feature">
-                  <p>Dedicated live support</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section> PRICING TABLE END-->
 
-  <!-- CLIENT -->
-  <section id="clients" class="section client-section bg--position-center no-repeat bg-cover"
-    style="background-image: url(images/clints_logo.png)">
-    <div class="container">
+  <br>
+  <!-- --------------------------------------ESTRUCTURA GALERÍA CON TARJETAS DE BOOSTRAP----------------------------------------------->
+  <section>
+    <div class="container-fluidTarjetas wf-containerTarjetas">
       <div class="row">
-        <div class="col-md-4 col-sm-6">
-          <img src="images/logo1.png" alt="" class="
-                img-responsive
-                max-width-100 max-height-60
-                padding-15
-                align--center
-              " />
+        <div class="col-sm-12 col-md-4 col-xl-3">
+          <div class="card mt-3 mb-2">
+            <img class="card-img-top" src="images/VolkswagenAmarok 2.0Crop.jpg" class="img-fluid">
+            <div class="card-body">
+              <h3 class="card-title">Softer</h3>
+              <p class="card-text">This is a multipurpose branding logo identity.Personalized and unique brands that
+                will reveal who you are.</p>
+              <a href="#" class="btn btn-primary wf-btn-black">comprar</a>
+            </div>
+          </div>
         </div>
-        <div class="col-md-4 col-sm-6">
-          <img src="images/logo2.png" alt="" class="
-                img-responsive
-                max-width-100 max-height-60
-                padding-15
-                align--center
-              " />
+        <div class="col-sm-12 col-md-4 col-xl-3">
+          <div class="card mt-3 mb-2">
+            <img class="card-img-top" src="images/VolkswagenAmarok 2.0Crop.jpg" class="img-fluid">
+            <div class="card-body">
+              <h3 class="card-title">Tomato Soup</h3>
+              <p class="card-text">Wandering ghosts that will blow your mind with their creativity.Don't let terror keep
+                you from this play. -Aleisha Samek-</p>
+              <a href="#" class="btn btn-primary wf-btn-black">comprar</a>
+            </div>
+          </div>
         </div>
-        <div class="col-md-4 col-sm-6">
-          <img src="images/logo3.png" alt="" class="
-                img-responsive
-                max-width-100 max-height-60
-                padding-15
-                align--center
-              " />
+        <div class="col-sm-12 col-md-4 col-xl-3">
+          <div class="card mt-3 mb-2">
+            <img class="card-img-top" src="images/VolkswagenAmarok 2.0Crop.jpg" class="img-fluid">
+            <div class="card-body">
+              <h3 class="card-title">Ghost Pals</h3>
+              <p class="card-text">Wandering ghosts that will blow your mind with their creativity.Don't let terror keep
+                you from this play. -Aleisha Samek-
+              </p>
+              <a href="#" class="btn btn-primary wf-btn-black">comprar</a>
+            </div>
+          </div>
         </div>
-        <div class="col-md-4 col-sm-6">
-          <img src="images/logo4.png" alt="" class="
-                img-responsive
-                max-width-100 max-height-60
-                padding-15
-                align--center
-              " />
+        <div class="col-sm-12 col-md-4 col-xl-3">
+          <div class="card mt-3 mb-2">
+            <img class="card-img-top" src="images/VolkswagenAmarok 2.0Crop.jpg" class="img-fluid">
+            <div class="card-body">
+              <h3 class="card-title">Hocus Pocus</h3>
+              <p class="card-text">Wandering ghosts that will blow your mind with their creativity.Don't let terror keep
+                you from this play. -Aleisha Samek-
+              </p>
+              <a href="#" class="btn btn-primary wf-btn-black">comprar</a>
+            </div>
+          </div>
         </div>
-        <div class="col-md-4 col-sm-6">
-          <img src="images/logo5.png" alt="" class="
-                img-responsive
-                max-width-100 max-height-60
-                padding-15
-                align--center
-              " />
+        <div class="col-sm-12 col-md-4 col-xl-3">
+          <div class="card mt-3 mb-2">
+            <img class="card-img-top" src="images/VolkswagenAmarok 2.0Crop.jpg" class="img-fluid">
+            <div class="card-body">
+              <h3 class="card-title">Sensitive Tiger</h3>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                of the card's content.</p>
+              <a href="#" class="btn btn-primary wf-btn-black">comprar</a>
+            </div>
+          </div>
         </div>
-        <div class="col-md-4 col-sm-6">
-          <img src="images/logo6.png" alt="" class="
-                img-responsive
-                max-width-100 max-height-60
-                padding-15
-                align--center
-              " />
+        <div class="col-sm-12 col-md-4 col-xl-3">
+          <div class="card mt-3 mb-2">
+            <img class="card-img-top" src="images/VolkswagenAmarok 2.0Crop.jpg" class="img-fluid">
+            <div class="card-body">
+              <h3 class="card-title">Duck Duck Pal</h3>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                of the card's content.</p>
+              <a href="#" class="btn btn-primary wf-btn-black">comprar</a>
+            </div>
+          </div>
         </div>
-      </div>
-      <div class="author-name-sign text-center">
-        -And thousand of more companies
+        <div class="col-sm-12 col-md-4 col-xl-3">
+          <div class="card mt-3 mb-2">
+            <img class="card-img-top" src="images/VolkswagenAmarok 2.0Crop.jpg" class="img-fluid">
+            <div class="card-body">
+              <h3 class="card-title">Astrology</h3>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                of the card's content.</p>
+              <a href="#" class="btn btn-primary wf-btn-black">comprar</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-4 col-xl-3">
+          <div class="card mt-3 mb-2">
+            <img class="card-img-top" src="images/VolkswagenAmarok 2.0Crop.jpg" class="img-fluid">
+            <div class="card-body">
+              <h3 class="card-title">Best Clippings</h3>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                of the card's content.</p>
+              <a href="#" class="btn btn-primary wf-btn-black">comprar</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-4 col-xl-3">
+          <div class="card mt-3 mb-2">
+            <img class="card-img-top" src="images/VolkswagenAmarok 2.0Crop.jpg" class="img-fluid">
+            <div class="card-body">
+              <h3 class="card-title">Hype!</h3>
+              <p class="card-text">Pop style street fashion, you're going to want to see what this is all about.</p>
+              <a href="#" class="btn btn-primary wf-btn-black">comprar</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-4 col-xl-3">
+          <div class="card mt-3 mb-2">
+            <img class="card-img-top" src="images/VolkswagenAmarok 2.0Crop.jpg" class="img-fluid">
+            <div class="card-body">
+              <h3 class="card-title">Space Travel</h3>
+              <p class="card-text">Elon Musk will be envying these prototypes. I'll be waiting for you in the next
+                galaxy.</p>
+              <a href="#" class="btn btn-primary wf-btn-black">comprar</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-4 col-xl-3">
+          <div class="card mt-3 mb-2">
+            <img class="card-img-top" src="images/VolkswagenAmarok 2.0Crop.jpg" class="img-fluid">
+            <div class="card-body">
+              <h3 class="card-title">Doberman Power</h3>
+              <p class="card-text">Canine energy for all your environments. Remember to take him out for a walk.</p>
+              <a href="#" class="btn btn-primary wf-btn-black">comprar</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-4 col-xl-3">
+          <div class="card mt-3 mb-2">
+            <img class="card-img-top" src="images/VolkswagenAmarok 2.0Crop.jpg" class="img-fluid">
+            <div class="card-body">
+              <h3 class="card-title">Kill Bill Sessions</h3>
+              <p class="card-text">This is your last chapter my old friend. This fight will finish you. See you in the
+                afterlife.</p>
+              <a href="#" class="btn btn-primary wf-btn-black">comprar</a>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </section>
-  <!-- CLIENT END -->
+
+  <!------------------------------------------------ FIN ESTRUCTURA GALERÍA CON TARJETAS DE BOOSTRAP --------------------------------------------------->
+
+
+  <!------------------------------------------------ COMIENZO DE GALERÍA CON SLIDE BOOSTRAP --------------------------------------------------->
+  <section class="slide">
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active" class="itemActive">
+          <img src="images/Mitsubishi L200Resized7.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="images/Mitsubishi L200Resized7.jpg" class="d-block w-100" alt="..."
+            class="row justify-content-center">
+        </div>
+        <div class="carousel-item">
+          <img src="images/Mitsubishi L200Resized7.jpg" class="d-block w-100" alt="..."
+            class="row justify-content-center">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+  <!------------------------------------------------ FIN DE GALERÍA CON SLIDE BOOSTRAP --------------------------------------------------->
 
   <!-- BLOG -->
   <section id="blog" class="section section-news">
@@ -1004,7 +1003,7 @@
     </section>
   </footer>
 
-  <!-- PRELOADER -->
+  <!-- PRELOADER 
   <div class="preloader-body">
     <div class="cube-wrapper">
       <div class="cube-folding">
@@ -1016,7 +1015,7 @@
       <span class="loading" data-name="Loading">Loading</span>
     </div>
   </div>
-
+-->
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
   <script src="js/jquery-3.1.0.min.js"></script>
   <!-- Include all compiled plugins (below), or include individual files as needed -->
@@ -1027,6 +1026,336 @@
   <script src="js/jquery.magnific-popup.min.js"></script>
   <!-- Dolphin JS -->
   <script src="js/main.js"></script>
+  <!-- AGREGADO DE WEFIND PARA GALERÍA -->
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
+    integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk"
+    crossorigin="anonymous"></script>
+
+
 </body>
 
 </html>
+
+
+<!-- FIN DE TEMPLATE 2 GARAGE GALERÍA----------------------->
+
+
+<!-- PRICING TABLE 
+    <section id="price" class="section bg-gray">
+      <div class="container pricing-wraper">
+        <header class="section-heading text-center">
+          <h3>
+            <span class="text--semi-bold">Get Pro &amp;</span>
+            <span class="text--light">Discover more</span>
+          </h3>
+        </header>
+        <div class="row pricing-row">
+          <div class="col-md-3 col-sm-6 no--padding">
+            <ul class="pricing-table">
+              <li class="header">Student</li>
+              <li class="price-tag">
+                <span class="price"><sup>$</sup>199</span
+                ><span class="package-duration">monthly</span>
+              </li>
+              <li>10GB Storage</li>
+              <li>10 Emails</li>
+              <li>10 Domains</li>
+              <li>1GB Bandwidth</li>
+              <li class="footer">
+                <a
+                  class="
+                    btn btn-default btn-theme btn-rounded-corner
+                    margin-top-bottom-50
+                    btn-o
+                  "
+                  href="#"
+                  role="button"
+                  >upgrade</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-3 col-sm-6 no--padding">
+            <ul class="pricing-table">
+              <li class="header">Pro</li>
+              <li class="price-tag">
+                <span class="price"><sup>$</sup>199</span
+                ><span class="package-duration">monthly</span>
+              </li>
+              <li>10GB Storage</li>
+              <li>10 Emails</li>
+              <li>10 Domains</li>
+              <li>1GB Bandwidth</li>
+              <li class="footer">
+                <a
+                  class="
+                    btn btn-default btn-theme btn-rounded-corner
+                    margin-top-bottom-50
+                    btn-o
+                  "
+                  href="#"
+                  role="button"
+                  >get started</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-3 col-sm-6 no--padding">
+            <ul class="pricing-table">
+              <li class="header">Business</li>
+              <li class="price-tag">
+                <span class="price"><sup>$</sup>199</span
+                ><span class="package-duration">monthly</span>
+              </li>
+              <li>10GB Storage</li>
+              <li>10 Emails</li>
+              <li>10 Domains</li>
+              <li>1GB Bandwidth</li>
+              <li class="footer">
+                <a
+                  class="
+                    btn btn-default btn-theme btn-rounded-corner
+                    margin-top-bottom-50
+                  "
+                  href="#"
+                  role="button"
+                  >try free for 30 days</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-3 col-sm-6 no--padding">
+            <ul class="pricing-table">
+              <li class="header">Enterprise</li>
+              <li class="price-tag">
+                <span class="price"><sup>$</sup>199</span
+                ><span class="package-duration">monthly</span>
+              </li>
+              <li>10GB Storage</li>
+              <li>10 Emails</li>
+              <li>10 Domains</li>
+              <li>1GB Bandwidth</li>
+              <li class="footer">
+                <a
+                  class="
+                    btn btn-default btn-theme btn-rounded-corner
+                    margin-top-bottom-50
+                    btn-o
+                  "
+                  href="#"
+                  role="button"
+                  >upgrade</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6 col-sm-12 col-md-offset-3">
+            <div class="section-sebheading text-center pricing-subheading">
+              <h5>Designed to take teamwork to the next level</h5>
+            </div>
+            <div class="row">
+              <div class="col-sm-4 col-xs-12 text-center feature-with-icon">
+                <div class="icon-wraper text-center">
+                  <img src="images/pricing-icon-1.png" alt="" />
+                </div>
+                <div class="pricing-feature">
+                  <p>All the space you need</p>
+                </div>
+              </div>
+              <div class="col-sm-4 col-xs-12 text-center feature-with-icon">
+                <div class="icon-wraper text-center">
+                  <img src="images/pricing-icon-2.png" alt="" />
+                </div>
+                <div class="pricing-feature">
+                  <p>Advanced security</p>
+                </div>
+              </div>
+              <div class="col-sm-4 col-xs-12 text-center feature-with-icon">
+                <div class="icon-wraper text-center">
+                  <img src="images/pricing-icon-3.png" alt="" />
+                </div>
+                <div class="pricing-feature">
+                  <p>Dedicated live support</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> PRICING TABLE END-->
+
+<!-- CLIENT -->
+<br>
+
+<!-- INTENTO DE SLICE DE TEMPLATE 4 CAR REPAIR
+  <div id="slider">
+    <div class="slider-block">
+      <div class="slider">
+        <ul class="items">
+          <li><img src="images/slide-1.jpg" alt="">
+            <div class="banner">
+              <div><span>Ford</span><strong>Сiriure dolor nhendrerit</strong>
+                <p>Nam liber tempor cum soluta nobis eleifenoption congue nigfif аil imperdiet doming id quod mazim
+                  placerat facer. Lorjem ipsum dolor sit amet, consecer adipiscing elit.</p>
+                <a href="#" class="button">Read More</a>
+              </div>
+            </div>
+          </li>
+          <li><img src="images/slide-2.jpg" alt="">
+            <div class="banner">
+              <div><span>Maserati GT</span><strong>Vulputate velit esse</strong>
+                <p>sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim
+                  ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis.</p>
+                <a href="#" class="button">Read More</a>
+              </div>
+            </div>
+          </li>
+          <li><img src="images/slide-3.jpg" alt="">
+            <div class="banner">
+              <div><span>Honda HSC</span><strong>Molestie consequat vel</strong>
+                <p>At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
+                  sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit.</p>
+                <a href="#" class="button">Read More</a>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <a href="#" class="prev"></a> <a href="#" class="next"></a>
+    </div>
+  </div>
+
+-->
+<!-- CLIENT INTENTO DE SLICE DE TEMPLATE 4 CAR REPAIR
+  <section id="clients" class="section client-section bg--position-center no-repeat bg-cover"
+    style="background-image: url(images/clints_logo.png)">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 col-sm-6">
+          <img src="images/logo1.png" alt="" class="
+                img-responsive
+                max-width-100 max-height-60
+                padding-15
+                align--center
+              " />
+        </div>
+        <div class="col-md-4 col-sm-6">
+          <img src="images/logo2.png" alt="" class="
+                img-responsive
+                max-width-100 max-height-60
+                padding-15
+                align--center
+              " />
+        </div>
+        <div class="col-md-4 col-sm-6">
+          <img src="images/logo3.png" alt="" class="
+                img-responsive
+                max-width-100 max-height-60
+                padding-15
+                align--center
+              " />
+        </div>
+        <div class="col-md-4 col-sm-6">
+          <img src="images/logo4.png" alt="" class="
+                img-responsive
+                max-width-100 max-height-60
+                padding-15
+                align--center
+              " />
+        </div>
+        <div class="col-md-4 col-sm-6">
+          <img src="images/logo5.png" alt="" class="
+                img-responsive
+                max-width-100 max-height-60
+                padding-15
+                align--center
+              " />
+        </div>
+        <div class="col-md-4 col-sm-6">
+          <img src="images/logo6.png" alt="" class="
+                img-responsive
+                max-width-100 max-height-60
+                padding-15
+                align--center
+              " />
+        </div>
+      </div>
+      <div class="author-name-sign text-center">
+        -And thousand of more companies
+      </div>
+    </div>
+  </section>
+  CLIENT END -->
+
+<!-- ESTRUCTURA FOTOS DEL TEMPLATE 4 ME FALTA AGREGAR EL CSS QUE ESTÁ EN EL ARCHIVO STYLE!!!
+
+  <section id="content">
+    <div class="block-1 box-1">
+      <div> <img src="template4/car-repair/images/slide-1.jpg" alt="">
+        <p class="text-1">Schedule <strong>Services</strong></p>
+        <p class="upper"><a href="#" class="link">Click here</a> for more info about this free website templates by
+          TemplateMonster.com.</p>
+        <a href="#" class="button">Read More</a>
+      </div>
+      <div> <img src="template4/car-repair/images/slide-2.jpg" alt="">
+        <p class="text-1">Preventive <strong>Maintenance</strong></p>
+        <p class="upper">This website template is optimized for 1280X1024 screen res. It is also XHTML & CSS valid.</p>
+        <a href="#" class="button">Read More</a>
+      </div>
+      <div> <img src="template4/car-repair/images/slide-3.jpg" alt="">
+        <p class="text-1">Repair <strong>Services</strong></p>
+        <p class="upper">The PSD source files of this template are available for free for the registered members.</p>
+        <a href="#" class="button">Read More</a>
+      </div>
+      <div class="last"> <img src="template4/car-repair/images/slide-2.jpg" alt="">
+        <p class="text-1">Tire & Wheel <strong>Services</strong></p>
+        <p class="upper">Feel free to get this free web template created by Template Monster Team!</p>
+        <a href="#" class="button">Read More</a>
+      </div>
+    </div>
+    <div class="block-2 wrap pad-2">
+      <div class="box-2">
+        <h2 class="clr-1">Reviews</h2>
+        <div class="comments">
+          <div> “Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.”
+            <div class="comments-corner"></div>
+          </div>
+          <a href="#">dolor hendrerit</a>
+        </div>
+        <div class="comments">
+          <div> “vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui
+            blandit.”
+            <div class="comments-corner"></div>
+          </div>
+          <a href="#">vulputate velit</a>
+        </div>
+      </div>
+      <div class="box-3">
+        <h2 class="clr-1">Our Services</h2>
+        <div class="wrap">
+          <ul class="list-1">
+            <li><a href="#">Consetetur sadipscing</a></li>
+            <li><a href="#">elitr sed diam nonumy</a></li>
+            <li><a href="#">tempor invidunt utabore</a></li>
+            <li><a href="#">et dolore magna aliquyam</a></li>
+            <li><a href="#">erat sed diam voluptua</a></li>
+            <li><a href="#">At vero eos et accusam et</a></li>
+          </ul>
+          <ul class="list-1 last">
+            <li><a href="#">Takimata sanctus est</a></li>
+            <li><a href="#">Lorem ipsum dolor sit amet</a></li>
+            <li><a href="#">Ipsum dolor sit amet</a></li>
+            <li><a href="#">consetetur sadipscing </a></li>
+            <li><a href="#">sed diam nonumy eirmod</a></li>
+            <li><a href="#">tempor invidunt ut labore</a></li>
+          </ul>
+        </div>
+        <a href="#" class="button-2">Read More</a>
+      </div>
+    </div>
+  </section>
+
+-->
