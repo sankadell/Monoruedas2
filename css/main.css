@@ -3,6 +3,7 @@ body {
   padding: 20px;
   padding-top: 0px;
   background-color: black;
+  margin: 0% 2%;
 }
 h3 {
   font-size: 31px;
@@ -267,18 +268,24 @@ header {
   opacity: 1;
 }
 
-/**--------------------------------------------- ESTRUCTURA GALERÍA CON TARJETAS DE BOOSTRAP --------------------------------------------------*/
+/**--------------------------------------------- ESTRUCTURA GALERÍA CON TARJETAS DE BOOSTRAP (AGREGADAS MANUALMENTE)--------------------------------------------------*/
 .wf-containerTarjetas {
   margin: 2.5em;
 }
-.card mt-3 mb-2 {
-  padding: 0.9em;
+.card {
+  padding: 0.8em;
+  margin: 2%;
 }
 .wf-btn-black {
   background-color: rgb(77, 87, 223);
   border-color: rgb(84, 92, 218);
 }
 
+.row {
+  margin-bottom: 2%;
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 1.5rem;
+}
 /**--------------------------------------------- FIN ESTRUCTURA GALERÍA CON TARJETAS DE BOOSTRAP --------------------------------------------------*/
 
 /*  ------------------------------------  *Latest cars *   -----------------------------------   */
