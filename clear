@@ -1,0 +1,193 @@
+[33mcommit fc1a8eae182243a6090849570418c2b7956e346e[m[33m ([m[1;36mHEAD -> [m[1;32mfeature_header[m[33m, [m[1;31morigin/feature_header[m[33m)[m
+Author: Gonzalo Morresi <gonzalomorresi@gmail.com>
+Date:   Mon Nov 14 15:16:36 2022 -0300
+
+     corrección de nav bar, slide de galería, sección feature
+
+[33mcommit f4c7e49b0fc79794883fe7ce291a66948f41547e[m
+Author: Gonzalo Morresi <gonzalomorresi@gmail.com>
+Date:   Fri Nov 11 17:35:47 2022 -0300
+
+    arreglo de galeria garage y galeria cards
+
+[33mcommit 963cdc4bad47109c001d41f3f823c6f9430f1184[m
+Author: Gonzalo Morresi <gonzalomorresi@gmail.com>
+Date:   Fri Nov 11 16:11:41 2022 -0300
+
+    modifico header, testimonial y agrego galería slide
+
+[33mcommit b04472b54d8977e859c503c060970276c605fabf[m
+Author: Gonzalo Morresi <gonzalomorresi@gmail.com>
+Date:   Sun Nov 6 19:10:19 2022 -0300
+
+    modifico header y pruebo una galería de imágenes.
+
+[33mcommit 7659424893b9401f1c7eeafc56def94712f80575[m
+Author: Gonzalo Morresi <gonzalomorresi@gmail.com>
+Date:   Wed Oct 26 13:23:37 2022 -0300
+
+    agrego shortcut icon
+
+[33mcommit 8304a6c978f2a9cc8bf1d88704764918f907ea85[m
+Author: Gonzalo Morresi <gonzalomorresi@gmail.com>
+Date:   Wed Oct 26 12:15:10 2022 -0300
+
+    cambio titulo
+
+[33mcommit c71276cc826449fee6b0e42a08f31552042bbd28[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m, [m[1;32mdevelop[m[33m)[m
+Merge: 6974cbc 4b60da6
+Author: sankadell <94577781+sankadell@users.noreply.github.com>
+Date:   Wed Oct 26 10:06:04 2022 -0400
+
+    Merge pull request #8 from sankadell/develop
+    
+    Develop
+
+[33mcommit 4b60da6697c80cc78de5b0b444b402d09c23e09b[m
+Merge: c6dfe3c 3aaa8a8
+Author: Santiago Dell Agnola <s.dellagnola@gmail.com>
+Date:   Wed Oct 26 09:50:40 2022 -0400
+
+    Merge branch 'develop' into feature_div1
+
+[33mcommit c6dfe3c0370a0e89440fd454da95669e900c9c93[m
+Author: Gonzalo Morresi <gonzalomorresi@gmail.com>
+Date:   Wed Oct 26 10:17:52 2022 -0300
+
+    cambio titulo para ver si es necesario configurar upstream
+
+[33mcommit 6974cbc2e5599a1a391ffbb031da4074d9675b1e[m
+Merge: 96cd3ed 3aaa8a8
+Author: sankadell <94577781+sankadell@users.noreply.github.com>
+Date:   Wed Oct 26 08:57:38 2022 -0400
+
+    Merge pull request #6 from sankadell/develop
+    
+    HTML completo
+
+[33mcommit 3aaa8a837754e41d35e837295fc268f2d565b32a[m
+Merge: 7b86c5a 5fe7e40
+Author: sankadell <94577781+sankadell@users.noreply.github.com>
+Date:   Wed Oct 26 08:56:20 2022 -0400
+
+    Merge pull request #5 from sankadell/feature_header
+    
+    Feature header
+
+[33mcommit 5fe7e40ca3e3a82da743cd5bd05a6bbd5129cecc[m
+Merge: 621e2b4 7b86c5a
+Author: Gonzalo <88410023+faucesmou@users.noreply.github.com>
+Date:   Wed Oct 26 09:54:42 2022 -0300
+
+    Merge branch 'develop' into feature_header
+
+[33mcommit 621e2b439ced5b9eb47d11dd261a199badeafa8c[m
+Author: Gonzalo Morresi <gonzalomorresi@gmail.com>
+Date:   Wed Oct 26 09:43:59 2022 -0300
+
+    cambio título a modo de prueba
+
+[33mcommit 829fc3c3bb80faa9a09a3c6c9a662f98d7982db5[m
+Author: Gonzalo Morresi <gonzalomorresi@gmail.com>
+Date:   Wed Oct 26 09:39:43 2022 -0300
+
+    cambio extra
+
+[33mcommit 7b86c5a2abc12f2276faea507396a1317c195253[m
+Merge: bec0fcd 5826988
+Author: Santiago Dell Agnola <s.dellagnola@gmail.com>
+Date:   Wed Oct 26 08:23:32 2022 -0400
+
+    Merge branch 'develop' of https://github.com/sankadell/Monoruedas2 into develop
+
+[33mcommit bec0fcd338f6ed9ef7f74e1e6974724588f6c1bf[m
+Author: Santiago Dell Agnola <s.dellagnola@gmail.com>
+Date:   Wed Oct 26 08:14:55 2022 -0400
+
+    aprueba cambios
+
+[33mcommit 58269881bcaa3de45ccadf8c33f27ce85d90f7b4[m
+Merge: dd31b84 c3f1d4b
+Author: Gonzalo Morresi <gonzalomorresi@gmail.com>
+Date:   Wed Oct 26 09:01:40 2022 -0300
+
+     prueba
+
+[33mcommit dd31b84e6c9c45fd7b142297c8e16cc790a1443b[m
+Author: Gonzalo Morresi <gonzalomorresi@gmail.com>
+Date:   Tue Oct 25 12:59:20 2022 -0300
+
+    agrego todo el template
+
+[33mcommit c3f1d4b4ae72fc97d92ac30aa06a08cdbe2a9efc[m
+Merge: 0d57162 eef2987
+Author: Gonzalo <88410023+faucesmou@users.noreply.github.com>
+Date:   Tue Oct 25 12:57:00 2022 -0300
+
+    Merge pull request #4 from sankadell/galeria2
+    
+    Galeria2
+
+[33mcommit 96cd3ed1495d49e304ac2dac2c1968db6b1e3e3f[m
+Merge: 68537b7 eef2987
+Author: sankadell <94577781+sankadell@users.noreply.github.com>
+Date:   Tue Oct 25 11:55:26 2022 -0400
+
+    Merge pull request #3 from sankadell/galeria2
+    
+    Galeria2
+
+[33mcommit eef2987fd87abb6db10b19cb929ee8cf679efdcc[m[33m ([m[1;31morigin/galeria2[m[33m)[m
+Merge: ac32c7f 68537b7
+Author: sankadell <94577781+sankadell@users.noreply.github.com>
+Date:   Tue Oct 25 11:55:17 2022 -0400
+
+    Merge branch 'main' into galeria2
+
+[33mcommit ac32c7f5837c759a104ca40afa683bfe28967d2c[m
+Merge: cd83ea3 0d57162
+Author: Gonzalo <88410023+faucesmou@users.noreply.github.com>
+Date:   Tue Oct 25 12:49:36 2022 -0300
+
+    Merge pull request #2 from sankadell/develop
+    
+    Merge pull request #1 from sankadell/galeria2
+
+[33mcommit 0d57162e2152d1f7ae8c6b3a407e8116e80c9414[m
+Merge: b80a6b9 cd83ea3
+Author: Gonzalo <88410023+faucesmou@users.noreply.github.com>
+Date:   Tue Oct 25 12:15:54 2022 -0300
+
+    Merge pull request #1 from sankadell/galeria2
+    
+    cambio aside
+
+[33mcommit cd83ea3d6e57913732c9e8ff89f2254e42b464bf[m
+Author: Gonzalo Morresi <gonzalomorresi@gmail.com>
+Date:   Tue Oct 25 12:14:12 2022 -0300
+
+    cambio aside
+
+[33mcommit b80a6b92c9b6785f0120d0d639d276a10f96dfaf[m
+Author: Gonzalo Morresi <gonzalomorresi@gmail.com>
+Date:   Tue Oct 25 12:08:50 2022 -0300
+
+    pepe
+
+[33mcommit 68537b7c0a42eab94f2f31a057a271818f77f705[m
+Author: Gonzalo Morresi <gonzalomorresi@gmail.com>
+Date:   Tue Oct 25 11:59:59 2022 -0300
+
+    otra vez agrego cambio
+
+[33mcommit 3ec6b57bca29510627343a9446ba14d63634d6ce[m
+Author: Santiago Dell Agnola <s.dellagnola@gmail.com>
+Date:   Tue Oct 25 09:26:39 2022 -0400
+
+    primer HTML
+
+[33mcommit e7dac6129cf63deee4490a6843ec69d86e88b517[m
+Author: Santiago Dell Agnola <s.dellagnola@gmail.com>
+Date:   Tue Oct 25 09:17:24 2022 -0400
+
+    first commit

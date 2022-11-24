@@ -3,6 +3,7 @@ body {
   padding: 20px;
   padding-top: 0px;
   background-color: black;
+  margin: 0% 2%;
 }
 h3 {
   font-size: 31px;
@@ -34,7 +35,7 @@ header {
   padding: 50px 35px;
 }
 /******************************* NAVBAR ************************************/
-
+/**
 .container1 {
   display: flex;
   flex-direction: row;
@@ -47,7 +48,7 @@ header {
 
 .navbar-header {
   display: flex;
-  justify-content: space-between !important; /*NO LOGRO QUE TOME ESTAS PROPIEDADES*/
+  justify-content: space-between !important; /*NO LOGRO QUE TOME ESTAS PROPIEDADES
 }
 
 .navbar-default {
@@ -107,6 +108,18 @@ header {
   font-weight: 300;
 }
 
+*/
+
+/******************************* NAV BAR AGREGADO DE BOOSTRAP  *********************************/
+.navbar-nav {
+  font-family: "weblysleek_uisemilight";
+  color: white;
+}
+
+.fs-1 {
+  font-family: "weblysleek_uisemilight";
+  color: white;
+}
 /******************************* JUMBOTRON *********************************/
 .jumbotron-fluid {
   padding-right: 0;
@@ -123,7 +136,7 @@ header {
 .jumbotron-section {
   padding: 0;
   width: 100%;
-  margin-top: 80px;
+  margin-top: 5px;
 }
 
 .jumbotron-section h2 {
@@ -139,7 +152,7 @@ header {
 
 /******************************* FEATURED **********************************/
 .features {
-  background-color: #f4f4f4;
+  background-color: #eee8fa;
 }
 /******************************* HEADING ***********************************/
 
@@ -176,9 +189,11 @@ header {
 /*-------------------------- TEMPLATE 2 GARAGE GALERÍA---------------------------------------------*/
 
 .txtcontent {
-  position: absolute;
+  position: relative;
   top: 0px;
   left: 0px;
+  bottom: 0px;
+  right: 0px;
   background: rgba(12, 12, 12, 0.7);
   width: 100%;
   height: 100%;
@@ -267,18 +282,24 @@ header {
   opacity: 1;
 }
 
-/**--------------------------------------------- ESTRUCTURA GALERÍA CON TARJETAS DE BOOSTRAP --------------------------------------------------*/
+/**--------------------------------------------- ESTRUCTURA GALERÍA CON TARJETAS DE BOOSTRAP (AGREGADAS MANUALMENTE)--------------------------------------------------*/
 .wf-containerTarjetas {
   margin: 2.5em;
 }
-.card mt-3 mb-2 {
-  padding: 0.9em;
+.card {
+  padding: 0.8em;
+  margin: 2%;
 }
 .wf-btn-black {
   background-color: rgb(77, 87, 223);
   border-color: rgb(84, 92, 218);
 }
 
+/*.row {
+  margin-bottom: 2%;
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 1.5rem;
+}*/
 /**--------------------------------------------- FIN ESTRUCTURA GALERÍA CON TARJETAS DE BOOSTRAP --------------------------------------------------*/
 
 /*  ------------------------------------  *Latest cars *   -----------------------------------   */
@@ -463,12 +484,18 @@ header {
 .slide {
   display: flex;
   justify-content: center;
-}
+} /*Clase modificada*/
 
 #carouselExampleIndicators {
   width: 50%;
   height: 80%;
 }
+.carousel-inner {
+  position: relative;
+  width: 60%;
+  overflow: hidden;
+}
+/*Clase modificada*/
 
 .carousel-indicators
   .carousel-inner
@@ -624,7 +651,7 @@ header {
   margin-right: 5px;
 }
 .testimonial-speech {
-  color: #fff;
+  color: rgb(19, 18, 18);
   padding-left: 15px;
   padding-right: 15px;
   font-family: "weblysleek_uisemilight_italic";
@@ -649,7 +676,7 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 15% 100%;
-  background-color: rgb(247, 243, 11);
+  background-color: rgb(17, 17, 16);
 }
 .margin-bottom--30 {
   margin-bottom: 30px;
