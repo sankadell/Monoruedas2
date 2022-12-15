@@ -54,7 +54,7 @@
   <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">
-        <img src="images/Monoceros2.jpg" alt="Bootstrap" width="150" height="150">
+        <img src="images/Monoceros2.jpg" alt="Bootstrap" width="100" height="100">
       </a>
       <a class="navbar-brand fs-2 d-flex" href="#"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
@@ -65,11 +65,12 @@
        ESTE DIV LO CREÉ PARA AGREGAR LA PROPIEDAD D-FLEX JUSTIFY-CONTENT-END, PERO LA HAMBURGUESA SE ABRE RARO INVESTIGAR -->
       <div class="d-flex justify-content-end">
         <div class="navbar-nav fs-4" class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <a class="nav-link active" aria-current="page" href="#" class="pull-left">Quienes somos</a>
-          <a class="nav-link active" aria-current="page" href="#">Características </a>
-          <a class="nav-link" href="#">Testimonios</a>
-          <a class="nav-link" href="#">Clientes</a>
-          <a class="nav-link">Cosas</a>
+          <a class="nav-link active" aria-current="page" href="#ancla1" class="pull-left">Quienes somos</a>
+          <a class="nav-link active" aria-current="page" href="#features">Características </a>
+          <a class="nav-link" href="#galeria">Galería</a>
+          <a class="nav-link" href="#testimonials">Testimonios</a>
+          <a class="nav-link" href="#blog">Clientes</a>
+          <a class="nav-link" href="#footer">Contacto</a>
         </div>
       </div>
     </div>
@@ -188,6 +189,7 @@
   <!-- HOME END -->
 
   <!-- ABOUT -->
+
  
    <section id="about" class="section padding-top-bottom-65">
     <div class="container text-center">
@@ -242,7 +244,7 @@
           <div class="media">
             <a class="media-left" href="#">
               <div class="media-object">
-                <i class="ion-ios-toggle-outline"></i>
+                <i class="ion-ios-toggle-outline "></i>
               </div>
             </a>
             <div class="media-body">
@@ -278,16 +280,94 @@
     </div>
   </section>
   <!-- FEATURE END-->
-  <br>
+
   <!-- TESTIMONIAL -->
-  <section id="testimonials" class="section testimonial-bg" style="background-image: url(images/testimonials5.jpg)">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12 text-center">
+
+
+  <div id="carouselTestimonios" class="carousel slide" data-bs-ride="carousel" style="background-image: url(images/testimonials7.jpg);">
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="900">
+        <div>
+          <div class="tituloSlide1 text-center">
+            <img src="./images/Monoceros4.jpg" alt="" />
+            <h5 class="">Cliente satisfecho</h5>
+            <hr class="" />
+          </div>
+          <p class="primeraSlideTestimonial">
+            <img class="" src="" alt="" />Welcome to one of the world’s largest
+            creative
+            communities and the number one game development
+            platform.Unity gives you everything.You need to
+            realize your creative vision fast, and move ahead.
+            communities and the number one game development
+            platform.Unity gives you everything.You need to
+            realize your creative vision fast, and move ahead.
+            creative.
+          </p>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <div>
+          <div class="tituloSlide1 text-center">
+            <img src="./images/Monoceros4.jpg" alt="" />
+            <h5 class="">Segundo Cliente satisfecho</h5>
+            <hr class="" />
+          </div>
+
+          <p class="segundaSlideTestimonial">
+            <img class="" src="" alt="" />Welcome to one of the world’s largest
+            creative
+            communities and the number one game development
+            platform.Unity gives you everything.You need to
+            realize your creative vision fast, and move ahead.
+            communities and the number one game development
+            platform.Unity gives you everything.You need to
+            realize your creative vision fast, and move ahead.
+
+
+          </p>
+        </div>
+      </div>
+      <div class="carousel-item"data-bs-interval="2000">
+        <div>
+          <div class="tituloSlide1 text-center">
+            <img src="./images/Monoceros4.jpg" alt="" />
+            <h5 class="">Tercer Cliente satisfecho</h5>
+            <hr class="" />
+          </div>
+          <p class="terceraSlideTestimonial">
+            <img class="" alt="" />Welcome to one of the world’s largest
+            creative
+            communities and the number one game development
+            platform.Unity gives you everything.You need to
+            realize your creative vision fast, and move ahead.
+            communities and the number one game development
+            platform.Unity gives you everything.You need to
+            realize your creative vision fast, and move ahead.
+
+          </p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!-- <section id="testimonials" class="section testimonial-bg" class="section"
+    style="background-image: url(images/testimonials5.jpg)">
+    <div class="containerTestimonials">
+      <div class="rowTestimonials">
+        <div class="col-md-12 text-center" id="testimonialColumna">
           <div id="testimonial-carousel" class="owl-carousel testimonial-sliders">
             <div>
               <div class="row">
-                <div class="col-md-12 col-md-offset-2">
+                <div class="col-md-6 col-md-offset-2">
                   <div class="testimonial-container">
                     <div class="client-details text-center">
                       <img src="images/quate.png" alt="" />
@@ -310,7 +390,7 @@
 
             <div>
               <div class="row">
-                <div class="col-md-12 col-md-offset-2">
+                <div class="col-md-6 col-md-offset-2">
                   <div class="testimonial-container">
                     <div class="client-details text-center">
                       <img src="images/Monoceros4.jpg" alt="" />
@@ -332,7 +412,7 @@
             </div>
             <div>
               <div class="row">
-                <div class="col-md-12 col-md-offset-2">
+                <div class="col-md-6 col-md-offset-2">
                   <div class="testimonial-container">
                     <div class="client-details text-center">
                       <img src="images/testimonial-1.png" alt="" />
@@ -356,7 +436,7 @@
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
   <!-- TESTIMONIAL END-->
 
   <!-- WORKFLOW -->
@@ -406,6 +486,7 @@
 
 
   <!------------------------------------------------------------------ TEMPLATE 2 GARAGE GALERÍA------------------------------------>
+
  
   <div class="grid">
     <div class="row">
@@ -587,11 +668,11 @@
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
   <!------------------------------------------------------------------ FIN TEMPLATE 2 GARAGE GALERÍA------------------------------------>
   <br>
   <!-- --------------------------------------ESTRUCTURA GALERÍA CON TARJETAS DE BOOSTRAP----------------------------------------------->
-  <section>
+  <section id="galeria">
     <div class="container-fluidTarjetas wf-containerTarjetas">
       <div class="row">
         <div class="col-sm-12 col-md-2 col-xl-3 mb-4">
@@ -815,7 +896,7 @@
   <!-- SUBSCRIPTION END-->
 
   <!-- FOOTER -->
-  <footer>
+  <footer id="footer">
     <section class="section footer-top">
       <div class="container">
         <div class="row">
