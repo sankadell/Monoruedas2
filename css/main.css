@@ -171,6 +171,12 @@ header {
   padding-bottom: 30px;
 }
 
+
+/******************************************* ABOUT **************************/
+.color-white {
+  color: white;
+}
+
 /******************************************* WORKFLOW **************************/
 .absolute-image-container {
   position: absolute;
