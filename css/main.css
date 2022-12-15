@@ -665,7 +665,7 @@ header {
   margin-bottom: 50px;
 }
 .client-name {
-  color: #fff;
+  color: rgb(22, 15, 15);
   font-size: 10px;
   text-transform: uppercase;
   margin-top: 20px;
@@ -1480,4 +1480,43 @@ footer {
   color: #007ee5;
   border-color: #007ee5;
   border: 1px solid;
+}
+/* #testimonials {
+text-align: right;
+} */
+/* .containerTestimonials {
+  display:flex;
+  justify-items: flex-end;
+} */
+/* .rowTestimonials {
+  display:flex;
+
+}
+#testimonial-carousel {
+  justify-items: flex-end;
+} */
+/* .containerTestimonials{
+  display: grid;
+  place-items: ;
+}  */ 
+
+.primeraSlideTestimonial, .segundaSlideTestimonial, .terceraSlideTestimonial, .tituloSlide1{
+  color:rgb(18, 19, 18);
+  font-family: "Manrope";
+  font-style: italic;
+}
+.carousel-inner{
+  background-image: src= "./images/"
+}
+
+#carouselTestimonios {
+  display: flex;
+  padding-top: 120px;
+  padding-bottom: 90px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.carousel-inner {
+display: flex;
+align-items: flex-end; 
 }
